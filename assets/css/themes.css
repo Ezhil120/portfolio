@@ -1,0 +1,114 @@
+/* Theme Variables and Color Palettes */
+:root {
+  /* Default: Cyber Slate (Dark High-Tech Glow) */
+  --bg-base: #070a12;
+  --bg-surface: #0e1424;
+  --bg-surface-elevated: #151d33;
+  --bg-glass: rgba(14, 20, 36, 0.75);
+  --bg-glass-card: rgba(21, 29, 51, 0.6);
+  --bg-glass-input: rgba(11, 16, 29, 0.8);
+  
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(6, 182, 212, 0.25);
+  --border-highlight: rgba(6, 182, 212, 0.5);
+  
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  
+  --accent-cyan: #06b6d4;
+  --accent-cyan-glow: rgba(6, 182, 212, 0.35);
+  --accent-teal: #10b981;
+  --accent-teal-glow: rgba(16, 185, 129, 0.35);
+  --accent-indigo: #6366f1;
+  --accent-purple: #8b5cf6;
+  --accent-rose: #f43f5e;
+  --accent-amber: #f59e0b;
+  
+  --gradient-primary: linear-gradient(135deg, #06b6d4 0%, #3b82f6 50%, #8b5cf6 100%);
+  --gradient-accent: linear-gradient(135deg, #06b6d4 0%, #10b981 100%);
+  --gradient-card: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%);
+  --gradient-hero-bg: radial-gradient(circle at 50% 20%, rgba(6, 182, 212, 0.15) 0%, rgba(99, 102, 241, 0.08) 40%, transparent 70%);
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 40px -8px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 25px rgba(6, 182, 212, 0.25);
+  --shadow-glow-teal: 0 0 25px rgba(16, 185, 129, 0.25);
+  
+  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+  
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Deep Ocean Teal Theme */
+[data-theme="ocean"] {
+  --bg-base: #041017;
+  --bg-surface: #08212c;
+  --bg-surface-elevated: #0f303e;
+  --bg-glass: rgba(8, 33, 44, 0.8);
+  --bg-glass-card: rgba(15, 48, 62, 0.65);
+  --bg-glass-input: rgba(6, 24, 33, 0.85);
+  
+  --border-subtle: rgba(20, 184, 166, 0.15);
+  --border-medium: rgba(20, 184, 166, 0.35);
+  --border-highlight: rgba(45, 212, 191, 0.6);
+  
+  --text-main: #f0fdfa;
+  --text-muted: #99f6e4;
+  --text-dim: #5eead4;
+  
+  --accent-cyan: #14b8a6;
+  --accent-cyan-glow: rgba(20, 184, 166, 0.4);
+  --accent-teal: #06b6d4;
+  --accent-teal-glow: rgba(6, 182, 212, 0.4);
+  
+  --gradient-primary: linear-gradient(135deg, #14b8a6 0%, #06b6d4 50%, #3b82f6 100%);
+  --gradient-accent: linear-gradient(135deg, #2dd4bf 0%, #0ea5e9 100%);
+  --gradient-hero-bg: radial-gradient(circle at 50% 20%, rgba(20, 184, 166, 0.2) 0%, rgba(6, 182, 212, 0.1) 50%, transparent 70%);
+  --shadow-glow: 0 0 25px rgba(20, 184, 166, 0.3);
+}
+
+/* Clean Editorial Light Theme */
+[data-theme="light"] {
+  --bg-base: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f1f5f9;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-glass-card: rgba(255, 255, 255, 0.9);
+  --bg-glass-input: rgba(248, 250, 252, 0.95);
+  
+  --border-subtle: rgba(15, 23, 42, 0.08);
+  --border-medium: rgba(14, 165, 233, 0.3);
+  --border-highlight: rgba(14, 165, 233, 0.6);
+  
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-dim: #64748b;
+  
+  --accent-cyan: #0284c7;
+  --accent-cyan-glow: rgba(2, 132, 199, 0.2);
+  --accent-teal: #059669;
+  --accent-teal-glow: rgba(5, 150, 105, 0.2);
+  --accent-indigo: #4f46e5;
+  --accent-purple: #7c3aed;
+  --accent-rose: #e11d48;
+  --accent-amber: #d97706;
+  
+  --gradient-primary: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #7c3aed 100%);
+  --gradient-accent: linear-gradient(135deg, #0284c7 0%, #059669 100%);
+  --gradient-card: linear-gradient(180deg, rgba(2, 132, 199, 0.03) 0%, rgba(255, 255, 255, 100%) 100%);
+  --gradient-hero-bg: radial-gradient(circle at 50% 20%, rgba(2, 132, 199, 0.1) 0%, rgba(99, 102, 241, 0.05) 50%, transparent 70%);
+
+  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 16px 40px -8px rgba(15, 23, 42, 0.12);
+  --shadow-glow: 0 0 25px rgba(2, 132, 199, 0.15);
+  --shadow-glow-teal: 0 0 25px rgba(5, 150, 105, 0.15);
+}
